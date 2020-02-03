@@ -4,7 +4,7 @@ import { AnalyticsLandingComponent} from './components/analytics-landing/analyti
 import { AnalyticsRoutingModule} from './analytics.routes' ;
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule, AnalyticsRoutingModule
   ],
   declarations: [AnalyticsLandingComponent]
 })
