@@ -1,3 +1,6 @@
 <ol>
-  <app-customize></app-customize>
+  <app-loader *ngIf="showloader"></app-loader>
+  <button (click)="toggleme()">
+    clickme
+  </button>
 </ol>
