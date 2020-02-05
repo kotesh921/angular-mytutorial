@@ -10,7 +10,7 @@ import {
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "datashow",
+    redirectTo: "result",
     pathMatch: "full"
   },
   {
@@ -24,6 +24,10 @@ const routes: Routes = [
   {
     path: "datashow",
     loadChildren: "./analytics/analytics.module#AnalyticsModule"
+  },
+  {
+    path: "result",
+    loadChildren: "./reports/reports.module#ReportsModule"
   }
 ];
 
